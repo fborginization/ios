@@ -1,4 +1,8 @@
-
+<script>
+  if('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js');
+  };
+</script>
 <html>
 <head>
 	<link href="assets/splash/320px_568px.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
@@ -14,9 +18,10 @@
 	<link href="assets/splash/834px_1194px.png" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
 	<link href="assets/splash/1024px_1366px.png" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
 
-	<link rel="manifest" href="manifest.webmanifest">
+	<link rel="manifest" href="manifest.json">
+   <body style="background-color:black;">
 
-	<title>FilmBin</title>
+	<title>MovieJavan</title>
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	
 	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
@@ -67,8 +72,7 @@
 	</script>
 
 </head>
-<body style="background-color:black;">
-
+<body>
 	         <script>
             (function(i, s, o, g, r, a, m) {
                 i['GoogleAnalyticsObject'] = r;
@@ -81,16 +85,15 @@
                 a.src = g;
                 m.parentNode.insertBefore(a, m)
             })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-            ga('create', 'UA', 'auto');
+            ga('create', 'UA-156563635-1', 'auto');
             ga('send', 'pageview');
         </script>
 
 
-<iframe id="frame" class="responsive-iframe" src="https://fb-ios.xyz" width="" height="0" sandbox="allow-forms allow-modals allow-pointer-lock allow-popups allow-presentation allow-same-origin allow-scripts allow-top-navigation-by-user-activation allow-popups-to-escape-sandbox" allow="accelerometer; camera; encrypted-media; geolocation; gyroscope; microphone; midi" scrolling="auto" allowTransparency="true" allowpaymentrequest="true" allowfullscreen="true" frameborder="0" scroll="no">
+<iframe id="frame" class="responsive-iframe" src="https://mj-ios.tk/ios/" width="" height="0" sandbox="allow-downloads allow-forms allow-modals allow-pointer-lock allow-popups allow-presentation allow-same-origin allow-scripts allow-top-navigation-by-user-activation allow-popups-to-escape-sandbox" allow="accelerometer; camera; encrypted-media; geolocation; gyroscope; microphone; midi" scrolling="auto" allowTransparency="true" allowpaymentrequest="true" allowfullscreen="true" frameborder="0" scroll="no">
 
 
 
-</body>
 </html>
 
 
