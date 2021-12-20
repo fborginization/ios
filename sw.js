@@ -14,9 +14,6 @@ self.addEventListener("message", (event) => {
 workbox.routing.registerRoute(
   new RegExp('/*'),
   new workbox.strategies.StaleWhileRevalidate({
-    cacheName: CACHE,
-    plugins: [
-      bgSyncPlugin
-    ]
+    cacheName: CACHE
   })
 );
