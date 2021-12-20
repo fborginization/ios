@@ -1,8 +1,4 @@
-<script>
-  if('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('sw.js');
-  };
-</script>
+
 <html>
 <head>
 	<link href="assets/splash/320px_568px.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
@@ -17,9 +13,12 @@
 	<link href="assets/splash/834px_1112px.png" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
 	<link href="assets/splash/834px_1194px.png" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
 	<link href="assets/splash/1024px_1366px.png" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
-
+<script>
+  if('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js');
+  };
+</script>
 	<link rel="manifest" href="manifest.webmanifest">
-   <body style="background-color:black;">
 
 	<title>FilmBin</title>
 	<meta name="apple-mobile-web-app-capable" content="yes">
@@ -72,7 +71,8 @@
 	</script>
 
 </head>
-<body>
+<body style="background-color:black;">
+
 	         <script>
             (function(i, s, o, g, r, a, m) {
                 i['GoogleAnalyticsObject'] = r;
@@ -94,6 +94,7 @@
 
 
 
+</body>
 </html>
 
 
