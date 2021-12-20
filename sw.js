@@ -11,10 +11,6 @@ self.addEventListener("message", (event) => {
   }
 });
 
-const bgSyncPlugin = new workbox.backgroundSync.Plugin(QUEUE_NAME, {
-  maxRetentionTime: 24 * 60 // Retry for max of 24 Hours (specified in minutes)
-});
-
 workbox.routing.registerRoute(
   new RegExp('/*'),
   new workbox.strategies.StaleWhileRevalidate({
