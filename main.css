@@ -1,5 +1,13 @@
+font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: bold;
+    src: url('IRANSans-web.woff') format('woff');
+}
+
 html,
 body {
+	font-family: IRANSans;
   height: 100%;
   margin: 0;
   padding: 0;
