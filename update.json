@@ -1,1 +1,2 @@
-[ { "Version": 2001, "MinimumVersion": 2000, "UpdateFileType": 0, "MD5": "5dea9f6d35d6df3fdfb21fa91af36840", "UpdateFileAddress": "https://filmbinapp3.xyz/Windows/Update.v2.php" } ]
+[ { "Version": 2001, "MinimumVersion": 2000, "UpdateFileType": 0, "MD5": "5dea9f6d35d6df3fdfb21fa91af36840", "UpdateFileAddress": "https://filmbinapp3.xyz/Windows/Update.v2.php" },
+{ "Version": 2002, "MinimumVersion": 2001, "UpdateFileType": 0, "MD5": "wefdsdff3fdfsdfb21fa91af36840", "UpdateFileAddress": "https://filmbinapp3.xyz/Windows/Update201.php" }]
