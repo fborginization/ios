@@ -1,4 +1,6 @@
-[ { "Version": 2001, "MinimumVersion": 2000, "UpdateFileType": 0, "MD5": "5dea9f6d35d6df3fdfb21fa91af36840", "UpdateFileAddress": "https://filmbinapp.com/Windows/update.v2.php" },
+[
+{ "Version": 2001, "MinimumVersion": 2000, "UpdateFileType": 0, "MD5": "5dea9f6d35d6df3fdfb21fa91af36840", "UpdateFileAddress": "https://filmbinapp.com/Windows/update.v2.php" },
 { "Version": 2002, "MinimumVersion": 2001, "UpdateFileType": 0, "MD5": "wefdsdff3fdfsdfb21fa91af36840", "UpdateFileAddress": "https://filmbinapp.com/Windows/update201.php" },
 { "Version": 2003, "MinimumVersion": 2002, "UpdateFileType": 0, "MD5": "wefdsdff3fdfsdfb21fa91af36840", "UpdateFileAddress": "https://filmbinapp.com/Windows/update202.php" },
-{ "Version": 2004, "MinimumVersion": 2003, "UpdateFileType": 0, "MD5": "wefdsdff3fdfsdfb21fa91af36840", "UpdateFileAddress": "https://filmbinapp.com/Windows/update203.php" }]
+{ "Version": 2004, "MinimumVersion": 2003, "UpdateFileType": 0, "MD5": "wefdsdff3fdfsdfb21fa91af36840", "UpdateFileAddress": "https://filmbinapp.com/Windows/update203.php" },
+]
