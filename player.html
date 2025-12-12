@@ -32,7 +32,6 @@
   </style>
 </head>
 <body>
-  <button onclick="loadVideo()">Play</button>
   <video id="player" controls playsinline preload="metadata" muted></video>
 
   <script>
@@ -61,7 +60,7 @@
       player.play().catch(err => {
         console.log("Autoplay blocked, user interaction required:", err);
       });
-    }
+    }()
   </script>
 </body>
 </html>
